@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 import './card.css'
-import axios from 'axios';
+
 import { Container, Row, Input, FormGroup, Label, Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap';
 
 
@@ -9,20 +9,7 @@ class Cards extends Component {
 
     state = {
         users : [],
-        /* newUsers : {
-            name : '',
-            designation: '',
-            salary : '',
-            
-        },
-
-        editUsers: {
-            id: '',
-            name : '',
-            designation: '',
-            salary : '',
-            
-        }, */
+        
             id: 0,
             index: 0,
             name : '',
@@ -34,9 +21,7 @@ class Cards extends Component {
             
     }
 
-    componentWillMount() {
-        this._refreshUsers();
-    }
+    
 
     toggleNewModal() {
         this.setState({
@@ -51,7 +36,7 @@ class Cards extends Component {
     }
 
     addUsers = () => {
-        //axios.post('http://localhost:3005/users', this.state.newUsers).then((response => {
+       
             let {name, designation, salary} = this.state;
 
             this.setState({
@@ -70,16 +55,15 @@ class Cards extends Component {
             })
            
 
-            
-        //}))
+     
     }
 
 
     updateUsers = () => {
         let {name, designation, salary, id, index} = this.state
 
-        //axios.put('http://localhost:3005/users/' + this.state.editUsers.id, {name, designation, salary}).then((response) => {
-            this._refreshUsers();
+        
+           
 
             let users = this.state.users
             users[index].name = name
@@ -107,22 +91,15 @@ class Cards extends Component {
 
 
       deleteBook(index) {
-        // //axios.delete('http://localhost:3005/users/' + id).then((response) => {
-        //   this._refreshUsers();
-        // });
+        
         this.setState({
           users : this.state.users.filter((d, i) => i !== index)
         })
       }
 
 
-      _refreshUsers() {
-        axios.get('http://localhost:3005/users').then((response) => {
-            this.setState({
-                users : response.data
-            })
-        })
-    }
+    
+    
 
 render() {
 
