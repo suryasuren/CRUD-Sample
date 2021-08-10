@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "surendhar",
+      "designation": "junior software developer",
+      "salary": "37000",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "saravanan",
+      "designation": "senior software developer",
+      "salary": 40000
+    },
+    {
+      "name": "mahesh",
+      "designation": "Sincere@aprisdcdfc",
+      "salary": "18000",
+      "id": 5
+    },
+    {
+      "name": "Clementina DuBuque",
+      "designation": "developer",
+      "salary": "56000",
+      "id": 6
+    },
+    {
+      "name": "Clementina DuBuque",
+      "designation": "developer",
+      "salary": "58000",
+      "id": 7
+    },
+    {
+      "name": "Ervin Howell",
+      "designation": "developer",
+      "salary": "12000",
+      "id": 8
+    },
+    {
+      "name": "saravananM",
+      "designation": "ssss",
+      "salary": "13500",
+      "id": 9
+    },
+    {
+      "name": "Ervin Howell",
+      "designation": "engineer",
+      "salary": "10000",
+      "id": 10
+    },
+    {
+      "name": "suren",
+      "designation": "engineer",
+      "salary": "48000",
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

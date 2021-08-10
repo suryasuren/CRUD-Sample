@@ -1,0 +1,16 @@
+ul {
+    display: block;
+}
+
+li {
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.btnaling {
+    margin-right: 3%;
+}
