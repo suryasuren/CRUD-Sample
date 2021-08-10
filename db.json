@@ -13,12 +13,6 @@
       "salary": 40000
     },
     {
-      "name": "mahesh",
-      "designation": "Sincere@aprisdcdfc",
-      "salary": "18000",
-      "id": 5
-    },
-    {
       "name": "Clementina DuBuque",
       "designation": "developer",
       "salary": "56000",
@@ -43,16 +37,22 @@
       "id": 9
     },
     {
-      "name": "Ervin Howell",
-      "designation": "engineer",
-      "salary": "10000",
-      "id": 10
-    },
-    {
       "name": "suren",
       "designation": "engineer",
-      "salary": "48000",
+      "salary": "50000",
       "id": 11
+    },
+    {
+      "name": "madan",
+      "designation": "developer",
+      "salary": "12500",
+      "id": 12
+    },
+    {
+      "name": "kavin",
+      "designation": "developer",
+      "salary": "10900",
+      "id": 13
     }
   ],
   "comments": [
